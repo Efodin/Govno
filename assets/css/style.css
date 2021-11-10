@@ -1,0 +1,156 @@
+.background {
+    background-color: rgb(26, 10, 63);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    font:bold 100% 'Bebas Neue', arial;
+    color: #8bf3b6;  
+}
+
+
+
+.header {
+    background-color:rgb(186, 77, 230);
+    height: 200px;
+    min-width: 80%;
+    margin: 1% 10% 0 10%;
+    border-radius: 50px;
+    position: sticky;
+}
+
+
+
+.logo-text h1{
+    color: #8bf3b6;
+    font: 400% 'Bebas Neue', arial;
+    letter-spacing: 2em;
+    padding: 20px 0 0 100px;
+    text-align: center;
+
+}
+
+.logo-text h2{
+    color: #8bf3b6;
+    font:bold 100% 'Bebas Neue', arial;
+    letter-spacing: 1em;
+    padding: 0 0 0 0;
+    text-align:center;
+}
+    
+.menubar {
+    width: 840px;
+    height: 46px;
+
+}
+
+ul.menu {
+    float: right;
+}
+
+ul.menu li {
+    float: left;
+    list-style: none;
+}
+
+Ul.menu li a {  
+    font: bold 150% 'Bebas Neue', arial;
+    display: block;
+    padding: 20px 0px 0 30px;
+    color: #8bf3b6;
+    text-decoration: none;
+    
+}
+
+ul.menu li.selected a {
+    color: #000000;
+}
+
+ul.menu li a:hover {
+    color: rgb(26, 10, 63);
+}
+
+.sidebar {
+    width: 200px;
+    height: 205px;
+    float: right;
+    margin: 2% 10% 0 0;
+    background-color: rgb(186, 77, 230);
+
+    border-radius: 15px;
+}
+
+.sidebar h2 {
+    text-align: center;
+    color: #8bf3b6;
+    margin: 10px 0 0 0;
+}
+
+
+
+input[type="text"], input[type="password"]{
+    color: #8bf3b6;
+    width: 80%;
+    padding: 8px;
+    margin: 4%;
+
+}
+    
+input {
+    outline: none;
+    border: none;
+    border: solid 1px #8bf3b6;
+    border-radius: 10px;
+
+}
+
+.btn {
+    padding: 8px;
+    width: 90%;
+    margin: 4%;
+    cursor: pointer;
+}
+
+.passreg_text {
+    font-size: 0.9em;
+    text-align: center;
+    margin: 2px 0 0 0;
+}
+
+.passreg_text a {
+    color: #8bf3b6;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.content {
+    width: 1280px;
+    margin: 2% 0 0 10%;
+}
+
+.content h1 {
+    font-size: 2em;
+    padding-bottom: 20px;
+}
+
+.content hr {
+    margin: 50px 0 50px 0;
+    border: solid 2px #8bf3b6;
+    border-radius: 10px;
+}
+
+.content img {
+    width: 22%;
+    margin: 0 0 0 1%;
+    border: solid 1px #8bf3b6;
+    border-radius: 30px;
+}
+
+
+
+
+
